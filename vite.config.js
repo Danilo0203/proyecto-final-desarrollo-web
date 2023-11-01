@@ -1,6 +1,5 @@
 import path from 'path';
-import { defineConfig } from 'vite';
-export default defineConfig({
+export default ({
 	root: path.resolve(__dirname, 'src'),
 	build: {
 		outDir: '../dist',
@@ -8,5 +7,4 @@ export default defineConfig({
 	server: {
 		port: 5174,
 	},
-	base: '/js-vite-blackjack/',
 });
