@@ -9,6 +9,7 @@ export default defineConfig({
 			input: {
 				main: path.resolve(__dirname, 'src/index.html'),
 				depto: path.resolve(__dirname, 'src/depto.html'),
+				lugares: path.resolve(__dirname, 'src/lugares.html'),
 			},
 		},
 	},
