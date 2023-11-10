@@ -1,4 +1,4 @@
-import * as bootstrap from 'bootstrap';
+import 'bootstrap/js/dist/dropdown';
 import html from '../depto.html?raw';
 import { navBar } from './cases-uses/nav-opacity';
 import { seleccionarDepto } from './cases-uses/seleccionarDepto';

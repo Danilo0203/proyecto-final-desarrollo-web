@@ -1,7 +1,5 @@
-// Import our custom CSS
 import '../scss/styles.scss';
-import Alert from 'bootstrap/js/dist/alert';
-// Import all of Bootstrap's JS
-import * as bootstrap from 'bootstrap';
+import 'bootstrap/js/dist/carousel';
+import 'bootstrap/js/dist/dropdown';
 import { App } from './app';
 App('body');
