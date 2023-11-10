@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Aprende de Guatemala</title>
-  <script type="module" crossorigin src="/proyecto-final-desarrollo-web/assets/main-9e1d5fa7.js"></script>
-  <link rel="modulepreload" crossorigin href="/proyecto-final-desarrollo-web/assets/cajas-depto-e67e4c2a.js">
+  <script type="module" crossorigin src="/proyecto-final-desarrollo-web/assets/main-a26e41a4.js"></script>
+  <link rel="modulepreload" crossorigin href="/proyecto-final-desarrollo-web/assets/cajas-depto-dc00f426.js">
   <link rel="stylesheet" href="/proyecto-final-desarrollo-web/assets/cajas-depto-b54f1c68.css">
 </head>
 
@@ -30,8 +30,15 @@
                         <li class="nav-item">
                             <a class="nav-link active fw-bold" aria-current="page" href="./index.html">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-bold" href="#Aprender">Aprender</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Aprender
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#Aprender">Aprende y Explora</a></li>
+                                <li><a class="dropdown-item" href="./depto.html">Aprender los Departamentos</a></li>
+                                <li><a class="dropdown-item" href="./lugares.html">Explora lugares Turísticos</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link fw-bold" href="#">Acerca de</a>
@@ -80,7 +87,7 @@
         </div>
     </header>
     <!-- Articulo de Explora y Aprende -->
-    <article class="container pt-5 text-center" id="Aprender">
+    <article class="container py-5 text-center" id="Aprender">
         <h2 class="text-primary fs-1">Explora y Aprende</h2>
         <div class="row mt-5">
             <section class="col-6 d-flex flex-column align-items-center">
@@ -101,57 +108,18 @@
                     </div>
                 </div>
             </section>
-
             <section class="col-6 d-flex flex-column align-items-center">
-                <h2 class="text-success">Aprende las Cabeceras de los Departamentos</h2>
+                <h2 class="w-75 text-success">Explorar Lugares Emblemáticos de Guatemala</h2>
                 <div class="col-10">
                     <div class="card h-100">
+                    <a href="./lugares.html">
                         <section class="card-imagenes">
-                            <img src="assets/img/6.svg" class="card-img-top" alt="">
+                            <img src="assets/img/Collage.svg" class="card-img-top" alt="mapa de Guatemala">
                             <img src="assets/img/4.svg" class="img-fluid" alt="">
                         </section>
+                    </a>
                         <div class="card-body">
-                            <p class="card-text fw-medium">¡Una excelente forma de reforzar tu conocimiento sobre las
-                                ciudades más
-                                importantes de Guatemala!.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="row mt-5">
-            <section class="col d-flex flex-column align-items-center">
-                <h2 class="w-50 text-success">Explorar Lugares Emblemáticos de Guatemala</h2>
-                <div class="col-6">
-                    <div class="card h-100">
-                        <div id="carouselExampleFade" class="carousel slide carousel-fade">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="assets/img/1.svg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="assets/img/2.svg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="assets/img/3.svg" class="d-block w-100" alt="...">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional
-                                content. This content is a little bit longer.</p>
+                            <p class="card-text fw-medium">¡Aventúrate en un viaje por los rincones más emblemáticos del país de la eterna primavera!</p>
                         </div>
                     </div>
                 </div>
