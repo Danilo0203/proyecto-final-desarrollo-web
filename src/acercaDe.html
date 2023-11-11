@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./scss/styles.scss">
+    <title>Acerca De</title>
+</head>
+
+<body class="max-vh-100">
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg bg-primary sticky-top py-3" id="navBar">
+        <div class="container bg-primary">
+            <a class="navbar-brand text-white" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav-underline ">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Aprender
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./index.html">Aprende y Explora</a></li>
+                                <li><a class="dropdown-item" href="./depto.html">Aprender los Departamentos</a></li>
+                                <li><a class="dropdown-item" href="./lugares.html">Explora lugares Turísticos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link theme" href="#">🌞</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Articulo de Explora y Aprende -->
+    <h2 class="text-center mt-5 text-success">Acerca De Aprende de Guatemala.</h2>
+    <article class="container-fluid px-5 text-center d-flex justify-content-around align-items-center">
+        <div class="row justify-content-evenly">
+            <div class="row justify-content-evenly my-4">
+                <div class="col-7 text-start d-flex flex-column justify-content-center fw-medium">
+                    <p>
+                        <b>Aprende de Guatemala</b> es una experiencia de aprendizaje interactiva diseñada para
+                        presentar la diversidad y riqueza de
+                        Guatemala de una forma accesible y atractiva. Con un enfoque en la educación lúdica, este sitio
+                        permite a los usuarios
+                        de todas las edades descubrir los departamentos, la historia y los sitios emblemáticos de
+                        Guatemala a través de un
+                        formato interactivo y visual.
+
+                    </p>
+                    <h2 class="text-primary">Tecnologías</h2>
+                    <p>
+                        La página ha sido cuidadosamente construida utilizando tecnologías modernas y robustas,
+                        incluyendo VITE para un rendimiento óptimo, HTML5 y CSS3 para una estructura y diseño web
+                        sólidos, JavaScript para interactividad dinámica, y Bootstrap para una experiencia de usuario
+                        cohesiva y responsiva. Estas herramientas han sido elegidas para garantizar un sitio web
+                        accesible y fácil de usar.
+                    </p>
+                    <div class="d-flex mb-4">
+                        <img src="assets/img/vite.svg" class="img-fluid w-25" alt="vite">
+                        <img src="assets/img/html5.svg" class="img-fluid w-25" alt="vite">
+                        <img src="assets/img/css3.svg" class="img-fluid w-25" alt="vite">
+                        <img src="assets/img/javascript.svg" class="img-fluid w-25" alt="vite">
+                    </div>
+                    <h2 class="text-primary">El Desarrollador Detrás del Proyecto</h2>
+                    <p>
+                        Detrás de <b>Aprende de Guatemala</b> está Danilo Calderón, un apasionado desarrollador web y
+                        estudiante de la Universidad Mariano Gálvez de Guatemala, comprometido con la creación de
+                        recursos educativos digitales que fomenten la curiosidad y el conocimiento.
+                    </p>
+                    <div class="d-flex justify-content-center mb-4">
+                        <img src="assets/img/IMG_20230111_125700~3.jpg"
+                            class="w-25 rounded-5 border border-primary  border-5 border-opacity-75 border-primary"
+                            alt="vite">
+                        <img src="assets/img/logo_umg.png" class="img-fluid w-25 " alt="vite">
+                    </div>
+                    <p>
+                        Este sitio es más que una herramienta de aprendizaje; es un homenaje a la rica herencia de una
+                        nación y un esfuerzo por
+                        preservar y compartir su legado con las generaciones futuras. Esperamos que encuentres tanto
+                        valor educativo como
+                        disfrute en la exploración de cada departamento y que este sitio sirva como un punto de partida
+                        para futuras aventuras y
+                        descubrimientos en la impresionante tierra de la eterna primavera.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <script type="module" src="./js/depto.js"></script>
+</body>
+
+</html>

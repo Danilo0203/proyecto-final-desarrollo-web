@@ -10,6 +10,7 @@ export default defineConfig({
 				main: path.resolve(__dirname, 'src/index.html'),
 				depto: path.resolve(__dirname, 'src/depto.html'),
 				lugares: path.resolve(__dirname, 'src/lugares.html'),
+				acercaDe: path.resolve(__dirname, 'src/acercaDe.html'),
 			},
 		},
 	},
